@@ -1,18 +1,26 @@
-
+*{
+    box-sizing: border-box;
+}
 
 body{
     width: auto;
     height: 100%;
     margin: 0px;
-    background-color: rgb(47, 44, 44);
+    background-color: black;
+    background-image: url('https://hexaware.com/wp-content/uploads/2019/10/Hi-Tech-Platforms-Information-Services.jpg');
     font-family:sans-serif;
-    color: white;
+    color: rgb(239, 234, 231);
     position: relative;
     flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    
 }
 header{
     height: 65px;
-    background-color: rgb(203, 55, 55);
+    background-color: #a8eefa;
     width: 100%;
     top: 0px;
     position: fixed;
@@ -45,8 +53,8 @@ li a {
     width: auto;
     height: 100%;
     text-align:center;
-    margin-top: 200px;
-    padding: 100px;
+    margin-top: 220px;
+    padding: 125px;
     margin-bottom: 60px;
     font-family:sans-serif;
 }
@@ -55,7 +63,7 @@ li a {
     margin-top: -30px;
 }
 .section1 p{
-    color: brown;
+    color: rgb(255, 134, 29);
     font-family:sans-serif;
     font-size: 30px;
     font-style: italic;
@@ -111,20 +119,24 @@ li a {
 }
 
 .showall{
-    width: 90px;
-    height: 20px;
-    background-color: rgb(34, 38, 61);
-    color: white;
-    padding: 15px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(20, 35, 121);
+   display: flex;
     border-radius: 2px;
     justify-content: center;
     margin-left: 45%;
     margin-top: 10px;
+    /* text-align: center; */
+    align-items: center;
+   
     /* margin-bottom: 50px; */
     font-size: large;
-    
 }
-
+.showall a{
+    text-decoration: none;
+    color: white;
+}
 .section3{
     margin: 0;
     width: 100%;
@@ -156,17 +168,20 @@ li a {
 }
 .contact a{
     text-decoration: none;
-    color: white;
+    color: rgb(84, 249, 255);
     justify-content: center;
     margin-left: 30px;
     margin-top: 20px;
+    font-weight: bold;
 }
 .context{
     display: inline-flex;
     margin: 80px 40px 10px 40px;
     text-align: justify;
     gap: 90px;
+    font-weight: bold;
     font-size: 16px;
+    color: rgb(255, 0, 72);
 }
 .code {
     color: rgb(224, 190, 39);
@@ -178,7 +193,7 @@ li a {
     opacity: 1;
 }
 hr{
-    border: 2px solid red;
+    border: 2px solid rgb(201, 198, 198);
 }
 .icons{
     padding-right: 10px;
